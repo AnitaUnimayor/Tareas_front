@@ -1,0 +1,75 @@
+#root {
+  width: 100%;
+}
+
+.admin-page-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.sidebar h4 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.sidebar .nav-link {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057;
+  border-radius: 8px;
+}
+
+/* Contenido principal */
+.admin-content {
+  padding: 3rem;
+}
+
+/* Card de contenido */
+.admin-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+/* Formulario */
+.input-nuevo-proyecto {
+  border-radius: 0.5rem;
+  max-width: 400px;
+}
+
+/* Botón */
+.btn-agregar-proyecto {
+  border-radius: 0.5rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.btn-agregar-proyecto:hover {
+  background-color: #2980b9;
+}
+
+/* Lista de proyectos */
+.list-group-item {
+  background-color: #f7f7f7;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+}
+
+.list-group-item:hover {
+  background-color: #ecf0f1;
+}
